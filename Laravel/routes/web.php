@@ -17,4 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('comics','comicss');
+Route::resource('comics','comicsController');
