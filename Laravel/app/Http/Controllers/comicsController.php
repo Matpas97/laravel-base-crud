@@ -14,7 +14,8 @@ class comicsController extends Controller
     public function index()
     {
         //
-        echo 'funziona';
+       $comics = comic::all();
+       return view('comics.index', compaxct('comics'));
     }
 
     /**
